@@ -1,27 +1,26 @@
 
-# without vdieo
-
+#without video
 
 import gymnasium as gym
 import gymnasium_robotics
 import numpy as np
 import time
 
-from stable_baselines3 import SAC
+from stable_baselines3 import A2C
 
 # ===============================
 # CONFIG
 # ===============================
 ENV_NAME = "FetchReach-v4"
-MODEL_PATH = "sac_fetchreach"   # without .zip
+MODEL_PATH = "a2c_fetchreach"   # without .zip
 
 # ===============================
 # LOAD MODEL
 # ===============================
-print("Loading trained SAC model...")
+print("Loading trained A2C model...")
 demo_env = gym.make(ENV_NAME, render_mode="human")
 
-model = SAC.load(MODEL_PATH, env=demo_env)
+model = A2C.load(MODEL_PATH, env=demo_env)
 print("Model loaded successfully.")
 
 # ===============================
@@ -59,13 +58,13 @@ print("Demo finished.")
 # import time
 # import os
 
-# from stable_baselines3 import SAC
+# from stable_baselines3 import A2C
 
 # # ===============================
 # # CONFIG
 # # ===============================
 # ENV_NAME = "FetchReach-v4"
-# MODEL_PATH = "sac_fetchreach"   # without .zip
+# MODEL_PATH = "a2c_fetchreach"   # without .zip
 # VIDEO_DIR = "videos"
 
 # os.makedirs(VIDEO_DIR, exist_ok=True)
@@ -82,14 +81,14 @@ print("Demo finished.")
 #     demo_env,
 #     video_folder=VIDEO_DIR,
 #     episode_trigger=lambda episode_id: True,  # record every episode
-#     name_prefix="SAC_FetchReach_Demo"
+#     name_prefix="A2C_FetchReach_Demo"
 # )
 
 # # ===============================
 # # LOAD MODEL
 # # ===============================
-# print("Loading trained SAC model...")
-# model = SAC.load(MODEL_PATH, env=demo_env)
+# print("Loading trained A2C model...")
+# model = A2C.load(MODEL_PATH, env=demo_env)
 # print("Model loaded successfully.")
 
 # # ===============================
