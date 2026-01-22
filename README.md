@@ -91,3 +91,11 @@ RL-Final-Project/
 ## 🚀 Summary
 This project combines **robotics, control systems, and reinforcement learning** into a unified learning experience.  
 It showcases the ability to **apply RL to existing robotic environments** as well as **design and solve new control problems**, making it a strong foundation for advanced work in **robotics and Physical AI**.
+
+---
+
+## 👨‍💻 Author
+
+[**Arnab Singha**](https://arnabsingha200228.github.io/), *Computer Science department*, [RKMVERI](https://rkmvu.ac.in/).
+
+---
