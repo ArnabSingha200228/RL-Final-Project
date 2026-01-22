@@ -64,6 +64,7 @@ This task highlights the challenges of **learning-based control** and bridges RL
 - **Python**
 - **Gymnasium & Gymnasium Robotics**
 - **PyTorch**
+- **Stable Baseline**
 - Custom RL training loops and environments
 
 ---
