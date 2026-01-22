@@ -80,8 +80,9 @@ This task highlights the challenges of **learning-based control** and bridges RL
 ## 📁 Project Structure (High Level)
 ```
 RL-Final-Project/
-│── part-1/                   # FetchReach experiments
-│── part-1/Custom Env/        # Custom ball–plate environment
+│── Resource/                 # Images and Videos of environments
+│── part-1/                   # FetchReach experiments and codes
+│── part-2/Custom Env/        # Custom ball–plate environment and codes
 │── README.md
 ```
 
