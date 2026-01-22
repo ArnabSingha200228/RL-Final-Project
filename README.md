@@ -12,7 +12,7 @@ The goal of this project is to build a strong foundation in **environment design
 ## 📌 Part 1: FetchReach — Robotic Manipulation with RL
 
 <p align="center">
-  <img src="https://robotics.farama.org/_images/fetch_reach.gif" width="480"/>
+  <img src="Resource/reach.gif" width="480"/>
 </p>
 
 In this part, reinforcement learning algorithms are applied to the **FetchReach** environment from **Gymnasium Robotics**.  
@@ -37,7 +37,7 @@ This part builds intuition for **robotics-focused RL** and is directly relevant 
 ## ⚙️ Part 2: Ball–Plate Balancing — Custom Continuous Control Environment
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Ball_and_plate_system.png" width="420"/>
+  <img src="Resource/ball-plate.png" width="420"/>
 </p>
 
 The second part focuses on **environment design from scratch** using a classic control problem: **ball–plate balancing**.  
