@@ -12,7 +12,7 @@ The goal of this project is to build a strong foundation in **environment design
 ## 📌 Part 1: FetchReach — Robotic Manipulation with RL
 
 <p align="center">
-  <img src="Resource/reach.gif" width="480"/>
+  <img src="Resource/reach.png" width="480"/>
 </p>
 
 In this part, reinforcement learning algorithms are applied to the **FetchReach** environment from **Gymnasium Robotics**.  
