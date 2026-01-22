@@ -44,6 +44,7 @@ The second part focuses on **environment design from scratch** using a classic c
 The agent controls the tilt of a plate along two axes to keep a ball balanced near the center.
 
 ### Environment design:
+- Interactive environment
 - Custom physics-based dynamics
 - Continuous observation and action spaces
 - Reward function encouraging stability and smooth control
